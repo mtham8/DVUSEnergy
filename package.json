@@ -1,0 +1,26 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "### Overview:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtham8/MKS-LA-MVP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtham8/MKS-LA-MVP/issues"
+  },
+  "homepage": "https://github.com/mtham8/MKS-LA-MVP#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "lodash": "^4.8.2"
+  }
+}

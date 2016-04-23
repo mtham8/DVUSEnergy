@@ -1,0 +1,23 @@
+{
+  "name": "Client",
+  "homepage": "https://github.com/mtham8/MKS-LA-MVP",
+  "authors": [
+    "Michelle <mtham101@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "chartist": "^0.9.7",
+    "chartist-plugin-pointlabels": "^0.0.4"
+  }
+}

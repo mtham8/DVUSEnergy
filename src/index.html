@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MVP</title>
+<link rel="stylesheet" href="./bower_components/chartist/dist/chartist.min.css">
+<script src="./bower_components/chartist/dist/chartist.min.js"></script>
+<script src="access.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+		<div id='page-wrap'>
+		<h1> US Energy Consumption Data Visuals YR2015 </h1>
+
+		<dl class="tabs" data-tab>
+		  <dd><a href="#panel1">Total Energy Consumption by Sector</a></dd>
+		  <dd><a href="#panel2">Total Primary Energy Consumption by Sector</a></dd>
+		</dl>
+		
+		<div class="tabs-content">
+		  <div class="content" id="panel1">
+		    <p>Total Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential
+		<div class="ct-chart ct-golden-section" id="chart1"></div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<a href="https://www.eia.gov/opendata/qb.cfm?category=711249" class="btn btn-default">Source</a>
+		</p>
+		  </div>
+		  <br>
+		  <br>
+		  <br>
+		  <div class="content" id="panel2">
+		    <p>Total Primary Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential</p>
+		<div id='myDiv'></div>
+		  <a href="https://www.eia.gov/opendata/qb.cfm?category=711249&sdid=TOTAL.TETCBUS.M" class="btn btn-default">Source</a>
+		  <br>
+		  <br>
+		  </div>
+		  </div>
+		  </div>
+
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+
+<script src="https://cdn.rawgit.com/uscensusbureau/citysdk/Release1.1/js/citysdk.js"></script>
+<script src="https://cdn.rawgit.com/uscensusbureau/citysdk/Release1.1/js/citysdk.eia.js"></script>
+<script src="app.js"></script>
+<script>app.init()</script>
+
+</body>
+</html>
