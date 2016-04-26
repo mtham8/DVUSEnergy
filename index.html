@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='myApp'>
 <head>
 	<title>Dynamic Visuals</title>
 <link rel="stylesheet" href="./bower_components/chartist/dist/chartist.min.css">
@@ -11,16 +11,16 @@
 </head>
 <body>
 		<div id='page-wrap'>
-		<h1> US Energy Consumption Data Visuals YR2015 </h1>
+		<h1> US Energy Consumption Data Visuals </h1>
 
 		<dl class="tabs" data-tab>
 		  <dd><a href="#panel1">Total Energy Consumption by Sector</a></dd>
 		  <dd><a href="#panel2">Total Primary Energy Consumption by Sector</a></dd>
 		</dl>
 
-		<div class="tabs-content">
+		<div ng-controller='chartistController' class="tabs-content">
 		  <div class="content" id="panel1">
-		    <p>Total Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential
+		    <p>Total Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential for YR2015
 		<div class="ct-chart ct-golden-section" id="chart1"></div>
 		<br>
 		<br>
@@ -35,10 +35,8 @@
 		</p>
 		  </div>
 		  <br>
-		  <br>
-		  <br>
 		  <div class="content" id="panel2">
-		    <p>Total Primary Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential</p>
+		    <p>Total Primary Energy Consumption by Sector: Transporation, Commericial, Industrial, Residential for YR2015</p>
 		<div id='myDiv'></div>
 		  <a href="https://www.eia.gov/opendata/qb.cfm?category=711249&sdid=TOTAL.TETCBUS.M" class="btn btn-default">Source</a>
 		  <br>
