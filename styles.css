@@ -6,3 +6,18 @@
 td {
 	padding-right: 20px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+canvas {
+position: relative; top:50%;
+left:50%;
+margin-left:-50vmin;
+width:50vmin;
+height:50vmin;
+overflow:hidden;
+}
